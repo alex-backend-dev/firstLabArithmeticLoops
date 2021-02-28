@@ -8,11 +8,11 @@ namespace firstLabArithmeticLoops
 {
     class Program
     {
-        static long Fact(long value)
+        public static long Fact(long value)
         {
             return (value == 0) ? 1 : value * Fact(value - 1);
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Введите k: ");
             int k = int.Parse(Console.ReadLine());
