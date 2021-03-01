@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace firstLabArithmeticLoops
 {
-    class Program
+    public class Program
     {
         public static long Fact(long value)
         {
